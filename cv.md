@@ -6,7 +6,7 @@
 * email: *buttamaks@gmail.com*
 * mobile number: **888 88 88**
 * GitHub: *buttamaks*
-* DISCORD: *BMS#1775*
+* DISCORD: *buttamaks#1775*
 
 *****
 
@@ -28,4 +28,4 @@ And now I understand I want to be a front-end developer! Now I start my new way.
 ### LANGUAGES:
 * RUSSIAN - Native
 * ENGLISH - A2 
-* I can count to ten in Russian, English, German, Spanish, Chinese, Uzbek & to count to five in Tajik language
+* I can count to ten in Russian, English, German, Spanish, Chinese, Uzbek & to count to five in Tajik language (~I'm not joking~)
