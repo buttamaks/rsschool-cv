@@ -1,6 +1,5 @@
 # MAKSIM BUTATOV
 
-*****
 
 ## CONTACT INFO:
 * email: *buttamaks@gmail.com*
