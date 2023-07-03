@@ -16,11 +16,12 @@ And now I understand I want to be a front-end developer! Now I start my new way.
 *****
 
 ## CODE EXAMPLE:
-`console.log("So sad code");`
+`console.log('So sad code');`
 
 *****
 
 ## EDUCATION:
+    NAVOI MINING COLLEGE
 1. CONTROL-MEASURING EQUIPMENT (2005)
 2. SERVICING OF ELECTRICAL FACILITIES (2008)
 
@@ -29,4 +30,9 @@ And now I understand I want to be a front-end developer! Now I start my new way.
 ## LANGUAGES:
 * RUSSIAN - Native
 * ENGLISH - A2
-* I can count to ten in Russian, English, German, Spanish, Chinese, Uzbek & to count to five in Tajik language (I'm not joking)
+
+*****
+## SKILLS:
+* HTML (basic level)
+* CSS (basic level)
+* JS (basic level)
