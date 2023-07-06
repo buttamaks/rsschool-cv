@@ -13,9 +13,8 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 
-  min-height: 100%;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
@@ -24,6 +23,13 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15px;
 }
 
 .header {
@@ -53,16 +59,18 @@ body {
   transition: color 0.6s;
 }
 
-.nav-link:hover {
+.link:hover {
   color: var(--link-hover-color);
 }
 
-.avatar {
+.avatar-section {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   padding: 20px 0;
+  border-bottom: 10px solid var(--link-hover-color);
 }
 /* .avatar-photoframe {
 } */
@@ -78,6 +86,7 @@ body {
 }
 
 .main-title {
+  margin: 0;
   font-size: 32px;
   text-transform: uppercase;
   letter-spacing: 8px;
@@ -87,4 +96,75 @@ body {
 
 .main-subtitle {
   text-transform: uppercase;
+}
+
+.section {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.list {
+  font-size: 1.2em;
+  line-height: 30px;
+}
+
+.list span {
+  font-style: italic;
+}
+
+.list a {
+  text-decoration: none;
+  color: #3d3da2;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts-item {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-left: 30px;
+}
+
+.contacts-item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+}
+
+.contacts-item:nth-child(1)::before {
+  background-image: url(assets/icons/libremmail-svgrepo-com.svg);
+}
+
+.contacts-item:nth-child(2)::before {
+  background-image: url(assets/icons/github-svgrepo-com.svg);
+}
+
+.contacts-item:nth-child(3)::before {
+  background-image: url(assets/icons/discord-alt-svgrepo-com.svg);
+}
+
+.contacts-item:nth-child(4)::before {
+  background-image: url(assets/icons/telegram-svgrepo-com.svg);
+}
+
+.footer {
+  background-color: gray;
 }
