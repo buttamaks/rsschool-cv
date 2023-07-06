@@ -172,6 +172,10 @@ body {
   font-style: italic;
 }
 
+.code-section code {
+  font-size: 1.2em;
+}
+
 .footer {
   background-color: gray;
 }
