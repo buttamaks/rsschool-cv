@@ -113,6 +113,9 @@ body {
 }
 
 .list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   font-size: 1.2em;
   line-height: 30px;
 }
@@ -124,12 +127,6 @@ body {
 .list a {
   text-decoration: none;
   color: #3d3da2;
-}
-
-.contacts-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .contacts-item {
