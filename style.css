@@ -33,7 +33,7 @@ body {
 }
 
 .header {
-  background-color: #bdbdbd;
+  background-color: rgb(165 165 179);
 }
 
 .nav {
@@ -53,7 +53,7 @@ body {
   padding: 0 20px;
   line-height: 50px;
 
-  color: blue;
+  color: wheat;
   font-size: 18px;
   text-decoration: none;
   transition: color 0.6s;
@@ -72,8 +72,6 @@ body {
   padding: 20px 0;
   border-bottom: 10px solid var(--link-hover-color);
 }
-/* .avatar-photoframe {
-} */
 
 .avatar-photo {
   border-radius: 50%;
@@ -136,7 +134,7 @@ body {
   padding-left: 30px;
 }
 
-.contacts-item:before {
+.contacts-item::before {
   content: "";
   position: absolute;
   left: 0;
@@ -173,6 +171,36 @@ body {
   font-size: 1.2em;
 }
 
+.skills-item {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-left: 35px;
+}
+
+.skills-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skills-item:nth-child(1)::before {
+  background-image: url(assets/icons/html-5-svgrepo-com.svg);
+}
+
+.skills-item:nth-child(2)::before {
+  background-image: url(assets/icons/css-3-svgrepo-com.svg);
+}
+
+.skills-item:nth-child(3)::before {
+  background-image: url(assets/icons/javascript-svgrepo-com.svg);
+}
+
 .footer {
-  background-color: gray;
+  background-color: rgb(165 165 179);
 }
