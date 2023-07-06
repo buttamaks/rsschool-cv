@@ -143,10 +143,11 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  top: 2px;
-  width: 24px;
-  height: 24px;
+  top: 1px;
+  width: 28px;
+  height: 28px;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .contacts-item:nth-child(1)::before {
@@ -163,6 +164,12 @@ body {
 
 .contacts-item:nth-child(4)::before {
   background-image: url(assets/icons/telegram-svgrepo-com.svg);
+}
+
+.about-section p {
+  margin: 0;
+  font-size: 1.2em;
+  font-style: italic;
 }
 
 .footer {
