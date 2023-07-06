@@ -13,7 +13,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-
+  justify-content: space-between;
   min-height: 100vh;
   margin: 0 auto;
   padding: 0;
@@ -74,7 +74,7 @@ body {
 }
 
 .avatar-photo {
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .avatar-title {
